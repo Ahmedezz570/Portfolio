@@ -73,7 +73,7 @@ const Contact = () => {
                 <div>
                   <h4 className="text-lg font-semibold text-ahmed-primary mb-1">Email</h4>
                   <a href="mailto:ahmed@example.com" className="text-ahmed-secondary hover:text-ahmed-accent transition-colors">
-                    ahmed@example.com
+                    ahmedez570@gmail.com
                   </a>
                 </div>
               </div>
@@ -85,7 +85,7 @@ const Contact = () => {
                 <div>
                   <h4 className="text-lg font-semibold text-ahmed-primary mb-1">Phone</h4>
                   <a href="tel:+123456789" className="text-ahmed-secondary hover:text-ahmed-accent transition-colors">
-                    +1 (234) 567-890
+                    01156629031
                   </a>
                 </div>
               </div>
@@ -103,7 +103,7 @@ const Contact = () => {
               </div>
             </div>
             
-            <div className="mt-8 p-6 bg-ahmed-muted rounded-lg">
+            {/* <div className="mt-8 p-6 bg-ahmed-muted rounded-lg">
               <h4 className="text-lg font-semibold text-ahmed-primary mb-4">
                 Office Hours
               </h4>
@@ -121,7 +121,7 @@ const Contact = () => {
                   <span>Closed</span>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </div>
           
           <div className="lg:col-span-3 animate-slide-up">

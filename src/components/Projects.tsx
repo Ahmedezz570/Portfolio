@@ -12,12 +12,12 @@ const Projects = () => {
       githubUrl: "https://github.com/Ahmedezz570/Striker-",
     },
     {
-      title: "Date",
-      description: " A minimal and responsive web application that displays the current time in real-time, updating every second. Built with a focus on clean design and smooth user experience. The app demonstrates dynamic rendering and state management to keep the displayed time accurate and continuously updating  .",
-      image: "./Screenshot 2025-04-17 101054.png",
-      tags: ["Html", "CSS", "JavaScript"],
-      liveUrl: "./Screenshot 2025-04-17 101054.png",
-      githubUrl: "https://github.com/Ahmedezz570/Date",
+      title: "SST-LabRent",
+      description: " SST is a full-stack web application designed to manage and facilitate the rental process of laboratory tools for the Air Department - Faculty of Engineering.",
+      image: "SST.png",
+      tags: ["React", "Node.js", "MongoDB", "tailwind"],
+      liveUrl: "notFound",
+      githubUrl: "https://github.com/Ahmedezz570/SST-Rent",
     },
     // {
     //   title: "Task Management App",
