@@ -32,7 +32,7 @@ const [projects , setprojects] = useState([]);
 useEffect(() => {
   const fetchProjects = async () => {
     try {
-      const response = await fetch("http://localhost:7000/projects");
+      const response = await fetch("https://backend-production-9111.up.railway.app/projects");
       const data = await response.json();
       // const filteredProjects = data.filter(repo => repo.topics.includes("project"));
       setprojects(data);
