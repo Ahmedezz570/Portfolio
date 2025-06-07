@@ -31,7 +31,7 @@ const Contact = () => {
   setIsLoading(true);
 
   try {
-    const response = await fetch("http://localhost:7000/addMsg", {
+    const response = await fetch("https://backend-production-9111.up.railway.app/addMsg", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
