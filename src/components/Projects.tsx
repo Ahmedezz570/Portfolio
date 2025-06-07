@@ -57,7 +57,7 @@ useEffect(() => {
         </div>
 
         <div className="space-y-16">
-          {projects.map((project, index) => (
+          {projects.slice(0, 2).map((project, index) => (
             <ProjectCard 
               key={index}
               title={project.title}
